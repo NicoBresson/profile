@@ -2,13 +2,13 @@ body {
   background-color: #DCDCDD;
   font-family: 'Dosis', sans-serif;
   color: #46494C;
-  line-height: 15px;
-  font-size: 15px;
+  line-height: 20px;
+  font-size: 18px;
 }
 
 h1, h2, h3 {
   font: 'Raleway', sans-serif;
-  line-height: 20px;
+  line-height: 25px;
   color: #4C5C68;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 .container {
-  width: 1000px;
+  width: 80%;
   margin: 30px auto;
 }
 
@@ -70,4 +70,39 @@ table {
 
 td {
   padding: 10px
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #46494C;
+  text-align: center;
+  margin: 0px;
+}
+
+#sidebar > ul > li > a {
+  color: #DCDCDD;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+#sidebar > ul {
+  padding-left: 0px;
+}
+
+#sidebar > ul > li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: list-item;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+div {
+  display: block;
 }
