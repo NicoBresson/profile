@@ -3,22 +3,22 @@ body {
   font-family: 'Dosis', sans-serif;
   color: #46494C;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 h1, h2, h3 {
   font: 'Raleway', sans-serif;
-  line-height: 25px;
+  line-height: 30px;
   color: #4C5C68;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   color: #1985A1
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 a {
@@ -27,9 +27,13 @@ a {
   font-style: italic;
 }
 
-.container {
-  width: 80%;
-  margin: 30px auto;
+#summary {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#summary .card > p {
+  padding-top: 20px;
 }
 
 
@@ -51,6 +55,7 @@ a {
 .list-inline {
   margin: 10px;
   padding-left: 0px;
+  margin-top: 30px;
 }
 
 .list-inline > li {
@@ -100,9 +105,41 @@ td {
 }
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 100px;
 }
 
 div {
   display: block;
+}
+
+#left-container {
+  float: left;
+  width: 35%;
+  min-height: 900px;
+}
+
+#left-container .card:first-child {
+    min-height: 690px;
+}
+
+#left-container .card:last-child {
+    min-height: 140px;
+}
+
+#right-container {
+  float: right;
+  width: 60%;
+  min-height: 900px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1);
 }
